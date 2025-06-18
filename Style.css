@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  background: #121212;
+  color: #fff;
+  margin: 0;
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+#video-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.video-item {
+  background: #1e1e1e;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
